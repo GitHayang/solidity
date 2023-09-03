@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "addBook",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idx",
+						"type": "uint256"
+					}
+				],
+				"name": "getBook",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "author",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "book_id",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StructExam.Book",
+						"name": "_b",
+						"type": "tuple"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "list",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "book_id",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/kopo/0823/struct2.sol": "StructExam"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/kopo/0823/struct2.sol": {
+			"keccak256": "0x56ddc6ca131c1e60389704b3e4d9f7a1cac37f87b458ab240d006886691e0d07",
+			"urls": [
+				"bzz-raw://beef5372c82713f6afa65d4e103234fe6ffca4f9c837174ae996bf66af550854",
+				"dweb:/ipfs/QmUwdohESrQEGmmEnE47rthRQYgsZLutcQqh1oPKnGTAzS"
+			]
+		}
+	},
+	"version": 1
+}
